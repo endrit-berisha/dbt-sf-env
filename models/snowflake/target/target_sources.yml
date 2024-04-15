@@ -1,0 +1,10 @@
+# models/sources.yml
+
+version: 2
+
+sources:
+  - name: TARGET
+    database: DBT_TARGET
+    schema: TEST
+    tables:
+      - name: TEMP1
