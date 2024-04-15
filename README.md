@@ -12,7 +12,7 @@ Before you start, ensure you have the following installed:
 
 #### Steps
 
-1. Create a `.env` file** and replace these values
+1. Create a `.env` file** and replace these values in '<>' with your credentials
 ```
 SNOWFLAKE_ACCOUNT=<account locator id>
 SNOWFLAKE_USER=<user>
