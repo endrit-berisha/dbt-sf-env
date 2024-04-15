@@ -14,9 +14,9 @@ Before you start, ensure you have the following installed:
 
 1. Create a `.env` file** and replace these values
 ```
-SNOWFLAKE_ACCOUNT="url prefix for your snowflake connection"
-SNOWFLAKE_USER="user"
-SNOWFLAKE_PASSWORD="password"
+SNOWFLAKE_ACCOUNT=<account locator id>
+SNOWFLAKE_USER=<user>
+SNOWFLAKE_PASSWORD=<password>
 ```
 
 1. Build the docker image
