@@ -22,6 +22,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   sbx:
-    target:
-      snowflake:    
-        materialized: view
+    target:  
+      materialized: view
