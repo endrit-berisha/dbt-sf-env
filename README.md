@@ -14,9 +14,13 @@ Before you start, ensure you have the following installed:
 
 1. Create a `.env` file** and replace these values in '<>' with your credentials
 ```
-SNOWFLAKE_ACCOUNT=<account locator id>
+SNOWFLAKE_ACCOUNT=<account_locator_id>
 SNOWFLAKE_USER=<user>
 SNOWFLAKE_PASSWORD=<password>
+SNOWFLAKE_ROLE=<role>
+SNOWFLAKE_DATABASE=<database>
+SNOWFLAKE_SCHEMA=<schema>
+SNOWFLAKE_WAREHOUSE=<warehouse>
 ```
 
 1. Build the docker image
