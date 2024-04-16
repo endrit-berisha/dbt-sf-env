@@ -1,4 +1,3 @@
 {{ config(materialized='view') }}
 
-select * 
-from {{source('TARGET', 'TEMP1') }}
+select * from {{ source('TARGET', 'TEMP1') }}
